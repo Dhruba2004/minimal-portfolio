@@ -1,8 +1,6 @@
 import {
   ClevertechLogo,
   ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
   NSNLogo,
   ParabolLogo,
 } from "@/images/logos";
@@ -12,13 +10,13 @@ export const RESUME_DATA = {
   name: "Dhruba Dutta Banik",
   initials: "DDB",
   location: "Kolkata,West Bengal,India",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  locationLink: "https://maps.app.goo.gl/7JuRd3bPHjnYxhjX9",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      A passionate Software Engineering Undergrad from Kolkata, 🇮🇳 Currently in
-      the 2nd year of my B.Tech in Computer Science & Engineering from
+      A passionate Software Engineering Undergrad from Kolkata, 🇮🇳 currently in
+      the pre year of my B.Tech in Computer Science & Engineering from
       University of Engineering & Management, Kolkata. I am good at full-stack
       web development. My favorite part of programming is the problem-solving
       aspect. I love the feeling of finally figuring out a solution to a
@@ -30,11 +28,11 @@ export const RESUME_DATA = {
       my friends.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5635AQGkLNQ5xNBePg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1725714483455?e=1733734800&v=beta&t=fNqH1c8xv71EA3zJteJvEN2qjf6XTCyQRhlMXSy5-A0",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "dhrubaduttabanik@gmail.com",
+    tel: "+919433433882",
     social: [
       {
         name: "GitHub",
@@ -43,7 +41,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/dhruba-dutta-banik-963524231/",
         icon: LinkedInIcon,
       },
       {
@@ -55,194 +53,134 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University Of Engineering & Management , Kolkata",
+      degree: "Bachelor's Degree in Computer Science and Engineering",
+      start: "2022",
+      end: "2026",
     },
   ],
   work: [
     {
-      company: "Film.io",
+      company: "Zidio Development",
       link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js","Tailwind"],
+      title: "Full Stack Development Intern",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+            Developed and maintained the frontend of Zidio Development website with NEXT , Tailwind , clerk and Shadcn UI.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+            Attended development programs to gain competencies and boost skills set.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+            Utilized version control tools like Git and GitHub to manage code, track changes, and collaborate with fellow developers.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      company: "CodeClause",
+      link: "https://internship.codeclause.com/",
+      badges: ["Remote", "Html", "Tailwind" ,"JavaScript"],
+      title: "Web Development Intern",
+      logo: ClevertechLogo,
+      start: "2024",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+            Developed an face detection system using Tensorflow js .
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+            Also developed image background remover web application using NEXT , Tailwind  and removebg API.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
+      company: "Oasis Infobyte",
+      link: "https://oasisinfobyte.com/",
+      badges: ["Remote", "MongoDB","React","Node","Express"],
+      title: "Full Stack Web Development Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      start: "2023",
+      end: "2023",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+            Developed an full stack workout tracker using MERN stack.
+            </li>
+            <li>
+            Developed an todo application using  React , Tailwind and Redux toolkit.
+            </li>
+          </ul>
+        </>
+      ),
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
     "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Tailwind",
+    "Express",
+    "SQL",
+    "Git & Github",
+    "Node",
+    "MongoDB",
+    "Java",
+    "Python"
   ],
   projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
+    // {
+    //   title: "Monito",
+    //   techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+    //   description:
+    //     "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "monito.dev",
+    //     href: "https://monito.dev/",
+    //   },
+    // },
+    // {
+    //   title: "Consultly",
+    //   techStack: [
+    //     "TypeScript",
+    //     "Next.js",
+    //     "Vite",
+    //     "GraphQL",
+    //     "WebRTC",
+    //     "Tailwind CSS",
+    //     "PostgreSQL",
+    //     "Redis",
+    //   ],
+    //   description:
+    //     "Platform for online consultations with real-time video meetings and scheduling",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "consultly.com",
+    //     href: "https://consultly.com/",
+    //   },
+    // },
+    // {
+    //   title: "Minimalist CV",
+    //   techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+    //   description:
+    //     "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "Minimalist CV",
+    //     href: "https://github.com/BartoszJarocki/cv",
+    //   },
+    // },
   ],
 } as const;
