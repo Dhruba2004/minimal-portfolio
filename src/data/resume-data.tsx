@@ -9,18 +9,25 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Dhruba Dutta Banik",
+  initials: "DDB",
+  location: "Kolkata,West Bengal,India",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      A passionate Software Engineering Undergrad from Kolkata, 🇮🇳 Currently in
+      the 2nd year of my B.Tech in Computer Science & Engineering from
+      University of Engineering & Management, Kolkata. I am good at full-stack
+      web development. My favorite part of programming is the problem-solving
+      aspect. I love the feeling of finally figuring out a solution to a
+      problem. My core stack is MongoDB, Express.js, React.js, and Node.js. I am
+      also familiar with programming languages like C, Python, Java, C++,
+      Javascript. I am always looking to learn new technologies. I am also
+      Interested in Cloud Computing , DevOps, and a lot other fields When I'm
+      not coding, I enjoy playing video games, watching movies, and playing with
+      my friends.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
@@ -31,7 +38,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Dhruba2004",
         icon: GitHubIcon,
       },
       {
