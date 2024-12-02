@@ -28,8 +28,8 @@ export const RESUME_DATA = {
       my friends.
     </>
   ),
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5635AQGkLNQ5xNBePg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1725714483455?e=1733734800&v=beta&t=fNqH1c8xv71EA3zJteJvEN2qjf6XTCyQRhlMXSy5-A0",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://dhruba2004-portfolio.vercel.app/_next/image?url=%2Fimages%2Fprofile.jpeg&w=384&q=95",
+  personalWebsiteUrl: "https://dhruba2004-portfolio.vercel.app/",
   contact: {
     email: "dhrubaduttabanik@gmail.com",
     tel: "+919433433882",
@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Zidio Development",
-      link: "https://film.io",
+      link: "https://zidio.in/",
       badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js","Tailwind"],
       title: "Full Stack Development Intern",
       logo: ConsultlyLogo,
