@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   summary: (
     <>
       A passionate Software Engineering Undergrad from Kolkata, 🇮🇳 currently in
-      the pre year of my B.Tech in Computer Science & Engineering from
+      the pre final year of my B.Tech in Computer Science & Engineering from
       University of Engineering & Management, Kolkata. I am good at full-stack
       web development. My favorite part of programming is the problem-solving
       aspect. I love the feeling of finally figuring out a solution to a
@@ -28,7 +28,8 @@ export const RESUME_DATA = {
       my friends.
     </>
   ),
-  avatarUrl: "https://dhruba2004-portfolio.vercel.app/_next/image?url=%2Fimages%2Fprofile.jpeg&w=384&q=95",
+  avatarUrl:
+    "https://dhruba2004-portfolio.vercel.app/_next/image?url=%2Fimages%2Fprofile.jpeg&w=384&q=95",
   personalWebsiteUrl: "https://dhruba2004-portfolio.vercel.app/",
   contact: {
     email: "dhrubaduttabanik@gmail.com",
@@ -63,7 +64,14 @@ export const RESUME_DATA = {
     {
       company: "Zidio Development",
       link: "https://zidio.in/",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js","Tailwind"],
+      badges: [
+        "Remote",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Tailwind",
+      ],
       title: "Full Stack Development Intern",
       logo: ConsultlyLogo,
       start: "2024",
@@ -72,13 +80,16 @@ export const RESUME_DATA = {
         <>
           <ul className="list-inside list-disc">
             <li>
-            Developed and maintained the frontend of Zidio Development website with NEXT , Tailwind , clerk and Shadcn UI.
+              Developed and maintained the frontend of Zidio Development website
+              with NEXT , Tailwind , clerk and Shadcn UI.
             </li>
             <li>
-            Attended development programs to gain competencies and boost skills set.
+              Attended development programs to gain competencies and boost
+              skills set.
             </li>
             <li>
-            Utilized version control tools like Git and GitHub to manage code, track changes, and collaborate with fellow developers.
+              Utilized version control tools like Git and GitHub to manage code,
+              track changes, and collaborate with fellow developers.
             </li>
           </ul>
         </>
@@ -87,7 +98,7 @@ export const RESUME_DATA = {
     {
       company: "CodeClause",
       link: "https://internship.codeclause.com/",
-      badges: ["Remote", "Html", "Tailwind" ,"JavaScript"],
+      badges: ["Remote", "Html", "Tailwind", "JavaScript"],
       title: "Web Development Intern",
       logo: ClevertechLogo,
       start: "2024",
@@ -95,11 +106,10 @@ export const RESUME_DATA = {
       description: (
         <>
           <ul className="list-inside list-disc">
+            <li>Developed an face detection system using Tensorflow js .</li>
             <li>
-            Developed an face detection system using Tensorflow js .
-            </li>
-            <li>
-            Also developed image background remover web application using NEXT , Tailwind  and removebg API.
+              Also developed image background remover web application using NEXT
+              , Tailwind and removebg API.
             </li>
           </ul>
         </>
@@ -108,7 +118,7 @@ export const RESUME_DATA = {
     {
       company: "Oasis Infobyte",
       link: "https://oasisinfobyte.com/",
-      badges: ["Remote", "MongoDB","React","Node","Express"],
+      badges: ["Remote", "MongoDB", "React", "Node", "Express"],
       title: "Full Stack Web Development Intern",
       logo: NSNLogo,
       start: "2023",
@@ -116,11 +126,10 @@ export const RESUME_DATA = {
       description: (
         <>
           <ul className="list-inside list-disc">
+            <li>Developed an full stack workout tracker using MERN stack.</li>
             <li>
-            Developed an full stack workout tracker using MERN stack.
-            </li>
-            <li>
-            Developed an todo application using  React , Tailwind and Redux toolkit.
+              Developed an todo application using React , Tailwind and Redux
+              toolkit.
             </li>
           </ul>
         </>
@@ -137,9 +146,40 @@ export const RESUME_DATA = {
     "Node",
     "MongoDB",
     "Java",
-    "Python"
+    "Python",
   ],
   projects: [
+    {
+      title: "Learnify",
+      techStack: ["Next js" , "Tailwind CSS" ,"Stripe" ,"Inngest","Drizzle ORM","Neon PostgreSQL","Clerk","Gemini"],
+      description:
+        "Learnify is a modern Learning Management System (LMS) SaaS application designed to provide seamless educational experiences. It integrates cutting-edge technologies for an intuitive and scalable platform, making it easy to deliver, manage, and monetize learning content.",
+      link: {
+        label: "AI Study Material Generator",
+        href: "https://learnify-latest.vercel.app/",
+      },
+    },
+    {
+      title: "Scribe",
+      techStack: ["Next js" , "Tailwind CSS","Clerk","Convex","Langchain","Gemini"],
+      description:
+        "Scribe is a full-stack AI-powered note-taking SaaS application that enables users to interact with PDF documents through chat. Leveraging Retrieval-Augmented Generation (RAG) techniques, it provides advanced AI capabilities for efficient information retrieval and management.",
+      link: {
+        label: "AI Note taker",
+        href: "https://rag-pdf-chat.vercel.app/",
+      },
+    },
+    {
+      title: "Genius",
+      techStack: ["Next js" ,"Typescript", "Tailwind CSS","Clerk","Gemini","Drizzle ORM","Neon PostgreSQL"],
+      description:
+        "Genius is an AI-powered content generation application designed to streamline the creation of high-quality content. Built with modern web technologies, it offers a seamless user experience for generating content efficiently.",
+      link: {
+        label: "AI Content Generator",
+        href: "https://genius-ashy.vercel.app/",
+      },
+    },
+
     // {
     //   title: "Monito",
     //   techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
